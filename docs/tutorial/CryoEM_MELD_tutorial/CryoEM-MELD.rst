@@ -78,6 +78,7 @@ Then we define some parameter:
 Then define a couple of function to generate the replica states and enforce the restraints:
 
 .. code-block:: python
+     
      def gen_state_templates(index, templates):                                                                                                                                     
          n_templates = len(templates)
          print((index,n_templates,index%n_templates))
@@ -114,6 +115,7 @@ Now setup the other important parameter and call these functions:
      
      
 .. code-block:: python
+     
      def setup_system():
          #print "!!!Starting from Templates!!!"
          templates = glob.glob('TEMPLATES/*.pdb')          # reading the initial conformation from TEMPLATE directory.
