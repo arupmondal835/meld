@@ -70,6 +70,7 @@ First we need to import the libraries:
 Then we define some parameter:
 
 .. code-block:: python
+
      N_REPLICAS = 16       # Number of replicas
      N_STEPS = 5000        # Number of steps will be saved. This is equivalent to 250 ns.
      BLOCK_SIZE = 100      # We save the trajectory in a chunk of 100 frames.
